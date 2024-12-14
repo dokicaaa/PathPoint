@@ -1,0 +1,63 @@
+/build
+# Gradle files
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration files
+/local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+
+# Android Studio specific
+.idea/
+*.iml
+*.hprof
+
+# Keystore files (DO NOT COMMIT THESE!)
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+.DS_Store
+
+# Generated files
+/captures/
+.externalNativeBuild/
+outputs/
+*.class
+*.apk
+*.ap_
+*.dex
+*.jar
+*.war
+*.ear
+
+*.jks
+
+# OS generated files
+*.DS_Store
+
+# Proguard files
+*.pro
+
+obj/
+.externalNativeBuild/
+
+# Ignore Google services file (if you're using Firebase)
+google-services.json
